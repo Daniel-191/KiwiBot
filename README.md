@@ -1,10 +1,10 @@
 # Kiwi Bot
 
-Kiwi Bot is a small Discord bot used to save audit logs. It includes a few utility commands and uses rich embeds for responses.
+Kiwi Bot is a small Discord bot used to save audit logs in the supabase storage. It includes a few utility commands and uses rich embeds for responses.
 
 ## Features
 
-- Saves audit logs (configured in the bot code)
+- Saves audit logs to supabase storage(configured in the bot code)
 - A few utility commands (for example: `ping`)
 - Uses Discord embeds for nicer messages
 
@@ -64,5 +64,6 @@ python3 main.py
 
 - The bot uses cogs in `commands/utility/` for commands. Add new command modules there.
 - Embeds are created with helper utilities in `helpers/responses.py`.
+- Supabase Initialization are in `helpers/supabase.py`.
 
 That's all — clone, set up the venv, configure `.env`, and run `main.py`.
