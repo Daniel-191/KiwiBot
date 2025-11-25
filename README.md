@@ -13,7 +13,7 @@ Kiwi Bot is a small Discord bot used to save audit logs in the supabase storage.
 1. Clone the repo
 
 ```bash
-git clone <https://github.com/RjNlxe/KiwiBot
+git clone https://github.com/RjNlxe/KiwiBot
 cd KiwiBot
 ```
 
